@@ -1,0 +1,22 @@
+.experience {
+    background-color: #e8eaec;
+
+    .blockquote {
+        border-left: 3px solid #fb3;
+
+        p {
+            font-size: 1rem;
+        }
+    }
+
+    .progress {
+        height: .3rem;
+        background-color: darken(#e8eaec, 10%);
+        margin-bottom: 38px;
+    }
+
+    .progress-bar {
+        height: .3rem;
+        background-color: #facc62;
+    }
+}

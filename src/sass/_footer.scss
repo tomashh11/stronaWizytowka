@@ -1,0 +1,14 @@
+footer {
+    background-color: darken(#f8f9fa, 5%);
+
+    .container {
+        p {
+            margin-bottom: 0;
+            color: lighten(#000, 55%);
+
+            span {
+                color: #000;
+            }
+        }
+    }
+}

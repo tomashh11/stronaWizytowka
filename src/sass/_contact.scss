@@ -1,0 +1,64 @@
+.contact {
+    margin-top: 70px;
+
+    .contact-title {
+        font-size: 24px;
+    }
+
+    .phone-number,
+    .mail {
+        font-size: 25px;
+    }
+
+    .facebook-link {
+        display: block;
+        position: relative;
+        background-color: #3f51b5;
+        box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .18), 0 4px 15px 0 rgba(0, 0, 0, .15);
+        width: 47px;
+        height: 47px;
+        border-radius: 50%;
+        transition: .3s;
+
+        .facebook {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+            font-size: 20px;
+        }
+    }
+
+    .facebook-link:hover {
+        box-shadow: 0 8px 17px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
+        background-color: #7e8ee8;
+        cursor: pointer;
+    }
+
+    .linkedin-link {
+        display: block;
+        position: relative;
+        background-color: #3f51b5;
+        box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .18), 0 4px 15px 0 rgba(0, 0, 0, .15);
+        width: 47px;
+        height: 47px;
+        border-radius: 50%;
+        transition: .2s;
+
+        .linkedin {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+            font-size: 20px;
+        }
+    }
+
+    .linkedin-link:hover {
+        box-shadow: 0 8px 17px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
+        background-color: #7e8ee8;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,123 @@
+.interests {
+    background-color: #e8eaec;
+    margin-top: 70px;
+
+    .container {
+        .row {
+            margin-right: 0;
+            margin-left: 0;
+
+            .motorcycle {
+                background-image: url("../../public/images/motorcycle.jpg");
+                height: 347px;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: 100%;
+                transition: .5s;
+                padding: 0;
+
+                p {
+                    text-shadow: 0 0 4px black;
+                    background-color: rgba(0, 0, 0, 0.5);
+                    font-size: 40px;
+                    line-height: 347px;
+                    opacity: 0;
+                    transition: .5s;
+                }
+
+                p:hover {
+                    opacity: 1;
+                    cursor: default;
+                }
+            }
+
+            .motorcycle:hover {
+                background-size: 120%;
+            }
+
+            .fishing {
+                background-image: url("../../public/images/fishing.jpg");
+                height: 347px;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: 100%;
+                transition: .5s;
+                padding: 0;
+
+                p {
+                    text-shadow: 0 0 4px black;
+                    background-color: rgba(0, 0, 0, 0.5);
+                    font-size: 40px;
+                    line-height: 347px;
+                    opacity: 0;
+                    transition: .5s;
+                }
+
+                p:hover {
+                    opacity: 1;
+                    cursor: default;
+                }
+            }
+
+            .fishing:hover {
+                background-size: 120%;
+            }
+
+            .bicycle {
+                background-image: url("../../public/images/bicycle.jpg");
+                height: 347px;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: 100%;
+                transition: .5s;
+                padding: 0;
+
+                p {
+                    text-shadow: 0 0 4px black;
+                    background-color: rgba(0, 0, 0, 0.5);
+                    font-size: 40px;
+                    line-height: 347px;
+                    opacity: 0;
+                    transition: .5s;
+                }
+
+                p:hover {
+                    opacity: 1;
+                    cursor: default;
+                }
+            }
+
+            .bicycle:hover {
+                background-size: 120%;
+            }
+
+            .traveling {
+                background-image: url("../../public/images/travel.jpg");
+                height: 347px;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: 100%;
+                transition: .5s;
+                padding: 0;
+
+                p {
+                    text-shadow: 0 0 4px black;
+                    background-color: rgba(0, 0, 0, 0.5);
+                    font-size: 40px;
+                    line-height: 347px;
+                    opacity: 0;
+                    transition: .5s;
+                }
+
+                p:hover {
+                    opacity: 1;
+                    cursor: default;
+                }
+            }
+
+            .traveling:hover {
+                background-size: 120%;
+            }
+        }
+    }
+}

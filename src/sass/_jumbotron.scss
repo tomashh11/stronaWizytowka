@@ -1,0 +1,19 @@
+.jumbotron {
+    height: 80vh;
+    position: relative;
+    color: #ffffff;
+
+    .container {
+        .jumbotron-bg {
+            background-image: url("../../public/images/coding-924920_1920.jpg");
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-position: center;
+            background-size: cover;
+            z-index: -1;
+        }
+    }
+}
