@@ -1,10 +1,61 @@
-.icons {
-    a {
-        color: rgba(0, 0, 0, 0.5);
-        font-size: 18px;
-    }
+.navbar-nav {
+  a {
+    color: rgba(0, 0, 0, 0.5);
+  }
 
-    a:hover {
-        color: rgba(0, 0, 0, 0.7);
+  a:hover {
+    color: rgba(0, 0, 0, 0.7);
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .navbar-nav {
+    font-size: 14px;
+  }
+
+  .icons {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .icons {
+    .nav-item {
+      .nav-link {
+        margin-right: 10px;
+      }
     }
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .icons {
+    .nav-item {
+      .nav-link {
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+@media (min-width: 360px) and (max-width: 576px) {
+  .navbar {
+    font-size: 12px;
+    .navbar-nav {
+      .nav-link {
+        padding-top: 0.2rem;
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+@media (max-width: 360px) {
+  .navbar {
+    .navbar-nav {
+      .nav-link {
+        margin-right: 10px;
+      }
+    }
+  }
 }

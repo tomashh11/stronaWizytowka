@@ -1,22 +1,124 @@
 .experience {
-    background-color: #e8eaec;
+  background-color: #e8eaec;
+  padding-top: 58px;
 
-    .blockquote {
-        border-left: 3px solid #fb3;
+  .blockquote {
+    border-left: 3px solid #fb3;
 
-        p {
-            font-size: 1rem;
+    p {
+      font-size: 1rem;
+    }
+  }
+
+  .progress {
+    height: .3rem;
+    background-color: darken(#e8eaec, 10%);
+    margin-bottom: 38px;
+  }
+
+  .progress-bar {
+    height: .3rem;
+    background-color: #facc62;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .blockquote {
+    .row {
+      .col-1 {
+        padding-right: 10px;
+      }
+    }
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .experience {
+    .container {
+      .row {
+        .col-md-5 {
+          h4 {
+            margin-top: 40px;
+          }
         }
+      }
     }
+  }
+}
 
-    .progress {
-        height: .3rem;
-        background-color: darken(#e8eaec, 10%);
-        margin-bottom: 38px;
+@media (min-width: 360px) and (max-width: 576px) {
+  .experience {
+    padding-top: 55px;
+    .container {
+      h2 {
+        font-size: 26px;
+      }
+      .row {
+        h4 {
+          font-size: 20px;
+        }
+        .col-md-5 {
+          margin-top: 20px;
+          .row {
+            font-size: 14px;
+          }
+          span, p {
+            font-size: 14px;
+          }
+        }
+        .blockquote {
+          .row {
+            .col-1 {
+              padding-right: 10px;
+            }
+            h5 {
+              font-size: 16px;
+            }
+            p {
+              font-size: 14px;
+            }
+          }
+        }
+      }
     }
+  }
+}
 
-    .progress-bar {
-        height: .3rem;
-        background-color: #facc62;
+@media (max-width: 360px) {
+  .experience {
+    padding-top: 55px;
+    .container {
+      h2 {
+        font-size: 20px;
+      }
+      .row {
+        h4 {
+          font-size: 18px;
+        }
+        .col-md-5 {
+          margin-top: 20px;
+          .row {
+            font-size: 14px;
+          }
+          span, p {
+            font-size: 14px;
+          }
+        }
+        .blockquote {
+          .row {
+            .col-1 {
+              padding-right: 3px;
+            }
+            h5 {
+              font-size: 16px;
+              margin-left: 10px;
+            }
+            p {
+              font-size: 14px;
+            }
+          }
+        }
+      }
     }
+  }
 }
