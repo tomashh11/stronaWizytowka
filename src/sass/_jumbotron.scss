@@ -1,7 +1,7 @@
 .jumbotron {
   height: 80vh;
   position: relative;
-  color: #ffffff;
+  color: $white;
   margin-bottom: 0;
 
   .container {
@@ -31,7 +31,7 @@
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 359px) {
   .jumbotron {
     h1 {
       font-size: 26px;

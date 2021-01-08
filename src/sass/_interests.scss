@@ -1,5 +1,5 @@
 .interests {
-  background-color: #e8eaec;
+  background-color: $sections-bgc;
   padding-top: 55px;
 
   .container {
@@ -17,7 +17,7 @@
         padding: 0;
 
         p {
-          text-shadow: 0 0 4px black;
+          text-shadow: 0 0 4px $black;
           background-color: rgba(0, 0, 0, 0.5);
           font-size: 40px;
           line-height: 347px;
@@ -45,7 +45,7 @@
         padding: 0;
 
         p {
-          text-shadow: 0 0 4px black;
+          text-shadow: 0 0 4px $black;
           background-color: rgba(0, 0, 0, 0.5);
           font-size: 40px;
           line-height: 347px;
@@ -73,7 +73,7 @@
         padding: 0;
 
         p {
-          text-shadow: 0 0 4px black;
+          text-shadow: 0 0 4px $black;
           background-color: rgba(0, 0, 0, 0.5);
           font-size: 40px;
           line-height: 347px;
@@ -101,7 +101,7 @@
         padding: 0;
 
         p {
-          text-shadow: 0 0 4px black;
+          text-shadow: 0 0 4px $black;
           background-color: rgba(0, 0, 0, 0.5);
           font-size: 40px;
           line-height: 347px;
@@ -155,7 +155,7 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .interests {
     .container {
       .row {
@@ -192,7 +192,7 @@
   }
 }
 
-@media (min-width: 576px) and (max-width: 768px) {
+@media (min-width: 576px) and (max-width: 767px) {
   .interests {
     .container {
       .row {
@@ -225,7 +225,7 @@
   }
 }
 
-@media (min-width: 360px) and (max-width: 576px) {
+@media (min-width: 360px) and (max-width: 575px) {
   .interests {
     .container {
       h2 {
@@ -265,7 +265,7 @@
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 359px) {
   .interests {
     .container {
       h2 {

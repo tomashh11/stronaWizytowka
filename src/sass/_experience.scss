@@ -1,9 +1,9 @@
 .experience {
-  background-color: #e8eaec;
+  background-color: $sections-bgc;
   padding-top: 58px;
 
   .blockquote {
-    border-left: 3px solid #fb3;
+    border-left: 3px solid $blockquote-color;
 
     p {
       font-size: 1rem;
@@ -11,14 +11,14 @@
   }
 
   .progress {
-    height: .3rem;
-    background-color: darken(#e8eaec, 10%);
+    height: 6px;
+    background-color: darken($sections-bgc, 10%);
     margin-bottom: 38px;
   }
 
   .progress-bar {
-    height: .3rem;
-    background-color: #facc62;
+    height: 6px;
+    background-color: $progress-bar-color;
   }
 }
 
@@ -32,7 +32,7 @@
   }
 }
 
-@media (min-width: 576px) and (max-width: 768px) {
+@media (min-width: 576px) and (max-width: 767px) {
   .experience {
     .container {
       .row {
@@ -46,7 +46,7 @@
   }
 }
 
-@media (min-width: 360px) and (max-width: 576px) {
+@media (min-width: 360px) and (max-width: 575px) {
   .experience {
     padding-top: 55px;
     .container {
@@ -84,7 +84,7 @@
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 359px) {
   .experience {
     padding-top: 55px;
     .container {

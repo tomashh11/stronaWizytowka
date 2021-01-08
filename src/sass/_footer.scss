@@ -1,13 +1,13 @@
 footer {
-    background-color: darken(#f8f9fa, 5%);
+    background-color: darken($footer-bgc, 5%);
 
     .container {
         p {
             margin-bottom: 0;
-            color: lighten(#000, 55%);
+            color: lighten($black, 55%);
 
             span {
-                color: #000;
+                color: $black;
             }
         }
     }
@@ -19,7 +19,7 @@ footer {
     }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 359px) {
   footer {
     margin-top: 70px;
     font-size: 14px;

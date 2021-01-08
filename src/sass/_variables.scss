@@ -1,11 +1,18 @@
-$font-family-sans-serif: 'Montserrat',
-sans-serif;
+$font-family-sans-serif: 'Montserrat', sans-serif;
 
 $border-radius: 0;
 $border-radius-lg: 0;
 $border-radius-sm: 0;
 
-$primary: #c76538;
+$primary: #212529;
+$sections-bgc: #e8eaec;
+$blockquote-color: #fb3;
+$progress-bar-color: #facc62;
+$footer-bgc: #f8f9fa;
+$social-media-color: #3f51b5;
+$social-media-bgc: #7e8ee8;
+$white: #fff;
+$black: #000;
 
 $theme-colors: ("primary": $primary);
 
@@ -14,6 +21,3 @@ $jumbotron-bg: rgba(#000, 0.5);
 $navbar-light-toggler-border-color: transparent;
 $navbar-toggler-padding-y: 0;
 $navbar-toggler-padding-x: 0;
-
-$breadcrumb-bg: transparent;
-$breadcrumb-padding-x: 0;
